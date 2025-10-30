@@ -38,7 +38,7 @@ def plot_clusters(X_2d, labels, title, filename):
     plt.legend(title="Cluster", loc="best")
     plt.savefig(filename, dpi=300, bbox_inches="tight")
     plt.close()
-    print(f"✅ Saved plot: {filename}")
+    print(f"Saved plot: {filename}")
 
 # --- KMeans Clustering ---
 kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
